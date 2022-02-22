@@ -18,6 +18,7 @@ Steps to test the API's:
 1. API to return list of products:
 	a. Open a command prompt and enter the below line of code
 		curl -X GET http://localhost:8080/CreditCard/getProducts
+
 	b. The webservice returns the output as shown below:
 		["Bronze-CreditCard","Gold-CreditCard","Platinum-CreditCard"]
 
@@ -26,7 +27,7 @@ Steps to test the API's:
 	a. Open a command prompt and enter the below line of code
 	
 		curl -H "Content-Type: application/json" -X POST -d {\"firstName\":\"Santhosh\",\"lastName\":\"Kumar\",\"email\":\"m_mrsanthosh@yahoo.com\",\"address\":\"Titaniumstraat10\",\"pincode\":\"7335CC\",\"city\":\"Apeldoorn\",\"country\":\"Netherlands\",\"selectedProduct\":\"Gold-CreditCard\"} http://localhost:8080/CreditCard/selectProduct
-		
+
 	b. The webservice returns the output as shown below:
 		
 		Thank you for your order! Kindly note the transaction ID: c8e22774-936f-11ec-af05-005056c00008 for future references. You will receive an email once the product is dispatched.
