@@ -64,4 +64,4 @@ https://start.camunda.com/
 
 5. The API's to registerCard and createCard is developed as Java Delegate. This is called directly from the process definition.
 
-6. Created the application with minimal logic. So nothing is saved in database as its a assignement application.
+6. Created the application with minimal logic. So nothing is saved in database as its a assignment application.
